@@ -24,6 +24,7 @@ else {
   }
 }
 function displayMessage(message){
-
+ document.getElementById('greeting').innerText = message
+ 
 }
 /* Write your implementation of displayMessage() */
