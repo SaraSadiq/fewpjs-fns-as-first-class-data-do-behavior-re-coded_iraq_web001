@@ -14,10 +14,10 @@ function greet(time){
   return ("Good Morning")
 }
   else if (hm_time >= 12 && hm_time < 17) {
-  return ("Good Evening")
+  return ("Good Afternoon")
 }
 else {
-  return("Good Night")
+  return("Good Evening")
 }
 }
 function displayMessage(message){
