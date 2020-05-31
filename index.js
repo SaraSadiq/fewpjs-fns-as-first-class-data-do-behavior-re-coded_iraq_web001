@@ -24,6 +24,6 @@ else {
   }
 }
 function displayMessage(message){
-  
+
 }
 /* Write your implementation of displayMessage() */
