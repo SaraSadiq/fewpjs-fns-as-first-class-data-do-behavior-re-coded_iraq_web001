@@ -8,10 +8,17 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(h,m){
-  document.getElementById('time');
-  if (x<12 && m==0)
-    alert 'Good Morning'
+function greet(time){
+  if (time <12){
+  return ("good morning")
+}
+  else if (time >12 && time <17) {
+  return ("good Evening")
+}
+  
+  else (){
+    
+  }
 
 }
 console.log(greet(1,0));
