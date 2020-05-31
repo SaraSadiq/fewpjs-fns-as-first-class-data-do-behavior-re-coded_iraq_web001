@@ -23,5 +23,7 @@ else {
 
   }
 }
-  console.log(greet(1,0));
+function displayMessage(message){
+  
+}
 /* Write your implementation of displayMessage() */
