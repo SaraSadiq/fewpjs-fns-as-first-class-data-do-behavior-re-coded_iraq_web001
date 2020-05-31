@@ -11,17 +11,16 @@ function handleClick(e) {
 function greet(time){
   const hm_time = parseInt(time)
   if (hm_time <12){
-  return ("good morning")
+  return ("Good Morning")
 }
   else if (hm_time >12 && hm_time <17) {
-  return ("good Evening")
+  return ("Good Evening")
 }
 else {
-  return("good night")
+  return("Good Night")
 }
 }
 function displayMessage(message){
  document.getElementById('greeting').innerText = message
-
 }
 /* Write your implementation of displayMessage() */
