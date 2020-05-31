@@ -19,9 +19,6 @@ function greet(time){
 else {
   return("good night")
 }
-
-
-  }
 }
 function displayMessage(message){
  document.getElementById('greeting').innerText = message
